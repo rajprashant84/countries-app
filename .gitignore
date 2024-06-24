@@ -128,3 +128,21 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+# Build artifacts
+/build
+/.next
+/.gatsby
+
+# Environment variables
+.env
+
+# IDE files (optional, based on your IDE/editor)
+.vscode/
+.idea/
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# macOS files (if applicable)
+.DS_Store
