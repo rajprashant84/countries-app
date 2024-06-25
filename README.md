@@ -52,6 +52,53 @@ To run tests, use the following command:
 ```bash
 npm test
 
+
+## Project Structure
+
+### Atomic Design
+
+This project follows the Atomic Design methodology by Brad Frost, which helps in creating a scalable and maintainable component structure. The components are divided into five levels: Atoms, Molecules, Organisms, Templates, and Pages.
+
+#### Atoms
+Atoms are the basic building blocks of the application. They are simple, self-contained components that can be reused throughout the application.
+
+#### Molecules
+Molecules are composed of multiple atoms working together as a unit. They handle more complex functionality by combining atoms.
+
+
+#### Organisms
+Organisms are relatively complex UI components composed of groups of molecules and/or atoms. They form distinct sections of the interface.
+
+
+
+#### Templates
+Templates define the layout and structure of a page. They do not contain any real content themselves but rather arrange organisms and molecules.
+
+#### Pages
+Pages are specific instances of templates filled with real content. They represent the final output that the end-users see.
+
+
+## Usage of Context and Hooks
+
+This project uses the Context API and custom hooks to manage global state and side effects efficiently.
+
+
+## API Services
+
+The application interacts with the REST Countries API using a service file that handles all API requests.
+
+
+## Types
+
+TypeScript interfaces and types are defined in a separate file to ensure type safety across the application.
+
+
+## Styles
+
+Global and component-specific styles are organized under the styles directory.
+
+
+
 ## Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).

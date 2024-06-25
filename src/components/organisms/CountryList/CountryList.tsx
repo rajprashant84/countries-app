@@ -73,6 +73,7 @@ const CountryList: React.FC<CountryListProps> = ({ countries, favorites, onToggl
           domLayout="autoHeight"
           pagination={true}
           paginationPageSize={paginationPageSize}
+          paginationPageSizeSelector={[10, 20, 50, 100]}
           onRowClicked={(event: RowClickedEvent) => onRowClick(event.data as Country)}
           onGridReady={onGridReady}
           onFirstDataRendered={(params) => params.api.sizeColumnsToFit()}
