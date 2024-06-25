@@ -32,7 +32,7 @@ This is a single-page web application built with React that interacts with the R
 1. Clone the repository:
     ```bash
     git clone https://github.com/yourusername/rest-countries-app.git
-    cd rest-countries-app
+    cd countries-app
     ```
 
 2. Install the dependencies:
