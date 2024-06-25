@@ -51,7 +51,7 @@ This is a single-page web application built with React that interacts with the R
 To run tests, use the following command:
 ```bash
 npm test
-
+ ```
 
 ## Project Structure
 
@@ -96,6 +96,8 @@ TypeScript interfaces and types are defined in a separate file to ensure type sa
 ## Styles
 
 Global and component-specific styles are organized under the styles directory.
+
+
 
 
 
