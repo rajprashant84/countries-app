@@ -47,11 +47,11 @@ This is a single-page web application built with React that interacts with the R
 
     The application will run on `http://localhost:3000`.
 
-## Running Tests
+<!-- ## Running Tests
 To run tests, use the following command:
 ```bash
 npm test
- ```
+ ``` -->
 
 ## Project Structure
 
