@@ -21,7 +21,7 @@ This is a single-page web application built with React that interacts with the R
 - **React Context API**: For state management across the application.
 - **React Hooks**: For managing state and side effects in functional components.
 - **React Testing Library**: For testing React components.
-- **Jest**: A delightful JavaScript testing framework.
+
 
 ## Installation
 
@@ -47,6 +47,10 @@ This is a single-page web application built with React that interacts with the R
 
     The application will run on `http://localhost:3000`.
 
+## Running Tests
+To run tests, use the following command:
+```bash
+npm test
 
 ## Learn More
 
