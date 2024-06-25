@@ -19,6 +19,7 @@ This is a single-page web application built with React that interacts with the R
 - **Axios**: A promise-based HTTP client for making requests to the REST Countries API.
 - **TypeScript**: A typed superset of JavaScript that compiles to plain JavaScript.
 - **React Context API**: For state management across the application.
+- **React Hooks**: For managing state and side effects in functional components.
 - **React Testing Library**: For testing React components.
 - **Jest**: A delightful JavaScript testing framework.
 
