@@ -1,0 +1,15 @@
+.country-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 16px;
+  text-align: center;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.country-flag {
+  width: 100px;
+  height: auto;
+  margin-bottom: 16px;
+}

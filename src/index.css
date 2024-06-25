@@ -1,83 +1,13 @@
 body {
-  font-family: Arial, sans-serif;
   margin: 0;
-  padding: 0;
-  background-color: #f0f0f0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-.App {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 20px;
-  background-color: #fff;
-  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
-}
-
-.App-header {
-  background-color: #333;
-  color: #fff;
-  padding: 10px 0;
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-.main-content {
-  margin-top: 20px;
-}
-
-form {
-  margin-bottom: 20px;
-}
-
-input[type="text"], button {
-  padding: 8px;
-  font-size: 16px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-}
-
-button {
-  background-color: #4CAF50;
-  color: white;
-  border: none;
-  cursor: pointer;
-  margin-left: 10px;
-}
-
-button:hover {
-  background-color: #45a049;
-}
-
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-li {
-  margin-bottom: 5px;
-}
-
-.ag-theme-alpine {
-  box-shadow: none;
-}
-
-.ag-header {
-  background-color: #f0f0f0;
-  border-bottom: 1px solid #ccc;
-}
-
-.ag-row {
-  border-bottom: 1px solid #eee;
-}
-
-.ag-row:hover {
-  background-color: #f9f9f9;
-}
-
-.ag-row-odd {
-  background-color: #fff;
-}
-
-.ag-row-selected {
-  background-color: #d3d3d3;
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
 }
